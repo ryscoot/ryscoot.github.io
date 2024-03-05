@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+    margin: 2rem;
+}
+.ticket {
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    animation: spin 10s linear infinite;
+    scale: .9;
+    padding-bottom: 40px;
+}
+.ticket:hover { 
+    opacity: 60%;
+    transition: 1s;
+    animation: spin 10s linear infinite;
+}
+
+
+@keyframes spin {
+    100% {transform: rotate(360deg);}
+}
+.movie-title {
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    transition: 1s;
+}
+.movie-title:hover {
+    transform: scale(1.35);
+    color: yellow;
+}
+.subtitle {
+    color: rgb(176, 176, 176);
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.lobby-link {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    text-decoration: none;
+    transition: 1s;
+}
+.lobby-link:hover {
+    transform: scale(1.35);
+    text-decoration: none;
+    color: rgb(132, 196, 36);
+}
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.body-text {
+    color: rgb(176, 176, 176);
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+}
+
+.subtext {
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    transition: 1s;
+}
+.subtext:hover {
+    transform: scale(1.35);
+    color: yellow;
+}
+.starring {
+    color: rgb(176, 176, 176);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto; 
+    transition: 1s;
+}
+
+.review {
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .5s;
+    
+}
+.review:hover {
+    
+    opacity: 60%;
+    transition: 1s;
+}

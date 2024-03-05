@@ -1,0 +1,254 @@
+body {
+  margin: 3rem;
+  background-color: black;
+  max-width: 100%;
+
+
+}
+
+.welcome-title {
+  color: white;
+  font-family: sans-serif;
+  font-size: 70px;
+  text-align: center;
+  animation: color-change 1.5s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+
+  25% {
+    color: blue;
+  }
+
+  50% {
+    color: rgb(226, 26, 146);
+  }
+
+  75% {
+    color: yellow;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
+.body-text {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  max-width: 50%;
+  line-height: 2rem;
+}
+
+.avon {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  filter: saturate(0%);
+  display: block;
+  padding-top: 5rem;
+  transition: 1s;
+}
+.avon:hover {
+  opacity: 60%;
+  transition: 1s;
+}
+
+.hands-with-tickets {
+
+  margin: 30px auto;
+  width: 90%;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 50%);
+  gap: 0rem;
+  grid-auto-rows: minmax(100px, auto)
+}
+
+.oscar-animated-shorts-fist {
+  grid-column: 1;
+  grid-row: 1;
+  opacity: 100;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+  width: auto;
+  height: auto;
+  transition: 1s;
+
+}
+
+.oscar-animated-shorts-fist:hover {
+  opacity: 100;
+  grid-column: 1;
+  grid-row: 1;
+  transform: scale(1.35);
+  background-image: url(openhand_ticket4.png)
+}
+
+.ticket-fist-closed-left:hover {
+  opacity: 0;
+
+}
+
+.ticket-fist-closed-right:hover {
+  transform: scale(1.35);
+}
+
+
+.moviedate {
+
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 3rem;
+
+}
+
+.oscardate {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+
+.all-of-us-strangers-fist {
+  grid-column: 2;
+  grid-row: 2;
+  opacity: 100;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  width: auto;
+  height: auto;
+  transition: 1s;
+
+}
+
+.all-of-us-strangers-fist:hover {
+  opacity: 100;
+  grid-column: 2;
+  grid-row: 2;
+  transform: scale(1.35);
+  background-image: url(openhand_ticket1.png)
+}
+
+.poor-things-fist {
+  grid-column: 1;
+  grid-row: 3;
+  opacity: 100;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  width: auto;
+  height: auto;
+  transition: 1s;
+}
+
+.poor-things-fist:hover {
+  opacity: 100;
+  grid-column: 1;
+  grid-row: 3;
+  transform: scale(1.35);
+  background-image: url(openhand_ticket5.png)
+}
+
+.the-holdovers-fist {
+  grid-column: 2;
+  grid-row: 4;
+  opacity: 100;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  width: auto;
+  height: auto;
+  transition: 1s;
+}
+
+.the-holdovers-fist:hover {
+  opacity: 100;
+  grid-column: 2;
+  grid-row: 4;
+  transform: scale(1.35);
+  background-image: url(openhand_ticket3.png)
+}
+
+.oldboy-fist {
+  grid-column: 1;
+  grid-row: 5;
+  opacity: 100;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  width: auto;
+  height: auto;
+  transition: 1s;
+}
+.oldboy-fist:hover {
+  opacity: 100;
+  grid-column: 1;
+  grid-row: 5;
+  transform: scale(1.35);
+  background-image: url(openhand_ticket6.png)
+}
+
+.showing-up-fist {
+  grid-column: 2;
+  grid-row: 6;
+  opacity: 100;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  width: auto;
+  height: auto;
+  transition: 1s;
+
+}
+.showing-up-fist:hover {
+  opacity: 100;
+  grid-column: 2;
+  grid-row: 6;
+  transform: scale(1.35);
+  background-image: url(openhand_ticket2.png)
+}
+
+.ticket-fist-closed-left {
+  max-width: 100%;
+  position: center left;
+
+
+}
+
+
+.ticket-fist-closed-right {
+  width: 100%;
+  transition: 1s;
+
+
+}
+.subtext {
+  color: yellow;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  transition: 1s;
+}
+.subtext:hover {
+  transform: scale(1.35);
+  color: yellow;
+}
